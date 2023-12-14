@@ -10,28 +10,28 @@ clear
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-if [[ "$DIR" != "/root/X-toolkit" ]]
+if [[ "$DIR" != "/root/reconX" ]]
 then
 	echo -e "I will try to install it for you..."
 	sleep 4
-	if [[ -d /root/X-toolkit ]]
+	if [[ -d /root/reconX ]]
 	then 
-		rm -r /root/X-toolkit
+		rm -r /root/reconX
 	fi
-	mkdir /root/X-toolkit
-	cp -r "$DIR"/* /root/X-toolkit
-	chmod +x /root/X-toolkit/install.sh
+	mkdir /root/reconX
+	cp -r "$DIR"/* /root/reconX
+	chmod +x /root/reconX/install.sh
 	#gnome-terminal -- bash -c "sudo /root/autoxploit/install.sh; exec bash"
 fi
 echo -e "Installing X-toolkit..."
 sleep 1
 echo -e "Fixing permissions..."
 sleep 2
-chmod +x /root/X-toolkit/X-toolkit.sh
+chmod +x /root/reconX/X-toolkit.sh
 clear
-echo -e "Copying script to /bin/X-toolkit"
-cd /root/X-toolkit
-cp /root/X-toolkit/X-toolkit.sh /bin/X-toolkit
+echo -e "Copying script to /bin/reconX"
+cd /root/reconX
+cp /root/reconX/X-toolkit.sh /bin/reconX
 clear
 while true
 do  
@@ -47,7 +47,7 @@ do
 	elif [[ "$UORI" = "i" ]]
 	then 
 		clear
-		BASHCHECK=$(cat ~/.bashrc | grep "/bin/X-toolkit")
+		BASHCHECK=$(cat ~/.bashrc | grep "/bin/reconX")
 		if [[ "$BASHCHECK" != "" ]]
 		then 
 			echo -e "I SAID USE i ONLY ONE TIME..........."
@@ -56,9 +56,9 @@ do
 		fi
 		echo -e "Adding X-toolkit to PATH so you can access it from anywhere"
 		sleep 1
-		export PATH=/bin/X-toolkit:$PATH
+		export PATH=/bin/reconX:$PATH
 		sleep 1
-		echo "export PATH=/bin/X-toolkit:$PATH" >> ~/.bashrc
+		echo "export PATH=/bin/reconX:$PATH" >> ~/.bashrc
 		sleep 1
 		clear
 		break
@@ -73,7 +73,7 @@ clear
 sleep 1
 echo -e "Installation is finished. Type 'X-toolkit' to launch the script after we exit."
 sleep 0.5
-echo -en "Starting X-toolkit"; sleep 0.5 ;echo -en "." ;sleep 0.5 ;echo -en "." ;sleep 0.5 ;echo -en "." ;sleep 0.5 ;echo -en "." ;
-sudo X-toolkit
+echo -en "Starting reconX"; sleep 0.5 ;echo -en "." ;sleep 0.5 ;echo -en "." ;sleep 0.5 ;echo -en "." ;sleep 0.5 ;echo -en "." ;
+sudo reconX
 
 
