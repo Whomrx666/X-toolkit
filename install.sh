@@ -74,6 +74,6 @@ sleep 1
 echo -e "Installation is finished. Type 'X-toolkit' to launch the script after we exit."
 sleep 0.5
 echo -en "Starting X-toolkit"; sleep 0.5 ;echo -en "." ;sleep 0.5 ;echo -en "." ;sleep 0.5 ;echo -en "." ;sleep 0.5 ;echo -en "." ;
-sudo reconX
+sudo X-toolkit
 
 
