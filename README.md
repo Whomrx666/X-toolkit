@@ -27,7 +27,7 @@ $ bash X-toolkit.sh
 ## CONNECT WITH ME :
 
 [![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://whomrxhackers.blogspot.com/)
-[![Instagram](https://img.shields.io/badge/X-FOLLOW-red?style=for-the-badge&logo=twitter)](https://twitter.com/whomrx666)
+[![Instagram](https://img.shields.io/badge/TWITTER-FOLLOW-red?style=for-the-badge&logo=x)](https://twitter.com/whomrx666)
 [![Instagram](https://img.shields.io/badge/YOUTUBE-SUBSCRIBE-red?style=for-the-badge&logo=youtube)](https://youtube.com/@whomrx666)
 [![Instagram](https://img.shields.io/badge/FACEBOOK-LIKE-red?style=for-the-badge&logo=facebook)](https://facebook.com/https://www.facebook.com/whomrx.666)
 [![Instagram](https://img.shields.io/badge/TELEGRAM-CONNECT-red?style=for-the-badge&logo=telegram)](https://t.me/@Whomr_X)
